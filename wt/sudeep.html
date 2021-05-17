@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img {
+            padding-left: 0%;
+            height: 300px;
+            width: 40%
+        }
+        
+        * {
+            box-sizing: border-box;
+        }
+        
+        .column {
+            float: left;
+            width: 33.33%;
+            padding: 5px;
+        }
+        /* Clearfix (clear floats) */
+        
+        .row::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="row" style="padding-top: 50px;">
+        <div class="column">
+            <a href="sfew.html"> <img src="images/s1.jpeg" alt="Snow" style="width:100%"></a>
+        </div>
+        <div class="column">
+            <a href="sfriend.html"> <img src="images/s2.jpg" alt="Forest" style="width:100%"></a>
+        </div>
+        <div class="column">
+            <a href="sstand.html"> <img src="images/S3.jpeg " alt="Forest " style="width:100% "></a>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
